@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  width: 80%;
 }
 
 h1 {
@@ -33,13 +34,9 @@ td {
 .tag {
   font-family: Courier;
   font-size: 0.85em;
-  width: 200px; 
+  width: 30%; 
 }
 
 .des {
-  width: 500px;
-}
-
-.eg {
-  width: 100px;
+  width: 70%;
 }
