@@ -3,6 +3,11 @@ h1#title {
   padding: 10px;
 }
 
+body {
+  width: 80%;
+  margin: auto;
+}
+
 h3,
 h5 {
   font-family: Helvetica;
