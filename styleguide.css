@@ -1,0 +1,95 @@
+h1#title {
+  font-family: Helvetica;
+  padding: 10px;
+}
+
+h3,
+h5 {
+  font-family: Helvetica;
+}
+
+.colors {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#colorblock {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+
+.color1 {
+  background-color: #539994;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}
+
+.color2 {
+  background-color: #D1E6E4;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}
+
+.color3 {
+  background-color: #997B6D;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}
+
+.color4 {
+  background-color: #EBC4B1;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}
+
+.fonts {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.fontname {
+  text-decoration: underline;
+  font-family: Helvetica;
+}
+
+.opensans {
+  font-family: 'Open Sans';
+}
+
+.inconsolata {
+  font-family: Inconsolata; 
+}
+
+.script {
+  font-family: 'Dancing Script'; 
+  font-size: 20px;
+}
+
+.styles {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1#styles {
+  font-family: 'Dancing Script';
+  font-size: 44px;
+}
+
+h3#styles2 {
+  font-family: 'Inconsolata';
+  font-weight: 600;
+  font-size: 24px;
+}
+
+p#styles3 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
