@@ -1,0 +1,40 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+table {
+  border: 2px solid steelblue;
+}
+
+thead {
+  background-color: lightskyblue;
+  margin: 3px;
+}
+
+td {
+  border-top: 1px solid steelblue;
+  border-collapse: collapse;
+  padding-left: 3px;
+}
+
+.tag {
+  font-family: Courier;
+  font-size: 0.85em;
+  width: 200px; 
+}
+
+.des {
+  width: 500px;
+}
+
+.eg {
+  width: 100px;
+}
