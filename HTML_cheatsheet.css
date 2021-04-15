@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  width: 80%;
 }
 
 h1 {
@@ -18,8 +17,6 @@ h2 {
 table {
   border: 2px solid steelblue;
   margin: auto;
-  display: inline flex;
-  flex-wrap: wrap;
 }
 
 thead {
