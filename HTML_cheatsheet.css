@@ -33,9 +33,9 @@ td {
 .tag {
   font-family: Courier;
   font-size: 0.85em;
-  width: 30%; 
+  width: 300px; 
 }
 
 .des {
-  width: 70%;
+  width: 700px;
 }
