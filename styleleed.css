@@ -1,0 +1,151 @@
+#banner {
+    height: 20rem;
+    background-image: url('https://news-media.stanford.edu/wp-content/uploads/2019/03/28100758/greennewdeal.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px;
+    text-align: center;
+}
+
+nav {
+    font-family: Arial;
+    text-align: center;
+    background-color: darkslategrey;
+    width: auto;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    color: white;
+    margin: 0 20px;
+}
+
+a:hover {
+    color: rgb(171, 221, 171);
+}
+
+.categories {
+    display: inline-block;
+}
+
+.checklist {
+    width: 300px;
+    background-color: #e4f7e2;
+}
+
+.strategies {
+    width: 300px;
+}
+
+.categories a {
+    color: darkgreen;
+}
+
+table {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+table, th, tbody {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 14.5px;
+}
+
+td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 14.5px;
+    padding: 5px;
+}
+
+h4 {
+    margin-left: 30px;
+    font-family: Arial;
+}
+
+.textbox {
+    margin: auto;
+    width: 680px; 
+    height: 1000px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 14.5px;
+    line-height: 23.333px;
+}
+
+#title2 {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-top: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.factsheet {
+    background-image: url('http://bgfons.com/uploads/paper_grid/paper_grid_PNG5411.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.standards,
+.certifications {
+    margin: auto;
+    text-align: left;
+    width: 700px;
+    font-family: Arial;
+    font-size: 14.5px;
+}
+
+.resources{
+    line-height: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.resources a {
+    color: black;
+    font-family: Helvetica;
+}
+
+footer {
+    font-family: Arial;
+    font-size: 14.5px;
+    color: white;
+    background-color: darkslategray;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
