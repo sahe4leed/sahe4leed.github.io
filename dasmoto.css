@@ -33,6 +33,10 @@ p {
   background-color: lightcoral;
 }
 
+#paint {
+  background-color: skyblue;
+}
+
 #price {
   font-family: Helvetica;
   font-weight: bold;
