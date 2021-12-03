@@ -6,6 +6,11 @@
   
 }
 
+.header {
+  display: flex;
+  justify-content: end;
+}
+
 .navigation {
   text-decoration: underline;
 }
@@ -13,6 +18,7 @@
 mainpage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #mission {
@@ -20,3 +26,9 @@ mainpage {
   width: 1200px;
 }
   
+#teaOfTheMonth {
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: center;
+}
+
