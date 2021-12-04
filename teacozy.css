@@ -5,12 +5,9 @@
   opacity: 0.9;
 }
 
-.header {
+.navigation {
   display: flex;
   justify-content: end;
-}
-
-.navigation {
   text-decoration: underline;
 }
 
@@ -21,11 +18,10 @@
 }
 
 #mission {
-  height: 700px;
-  width: 1200px;
+  flex: 700px;
 }
   
-#teaOfTheMonth {
+#tea {
   display: flex;
   flex-flow: row wrap; 
   justify-content: center;
