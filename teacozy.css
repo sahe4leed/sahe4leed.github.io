@@ -5,7 +5,7 @@
   opacity: 0.9;
 }
 
-.navigation {
+header {
   display: flex;
   justify-content: end;
   text-decoration: underline;
