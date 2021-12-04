@@ -18,9 +18,12 @@ header {
 }
 
 #mission {
-  flex: 700px;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   align-items: center;
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
   
 #tea {
