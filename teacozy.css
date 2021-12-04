@@ -27,8 +27,12 @@ header {
 }
   
 #tea {
-  display: flex;
   flex-flow: row wrap; 
   justify-content: center;
+  flex: 1000px;
+  
 }
 
+.teaphotos {
+  justify-content: space-evenly;
+}
