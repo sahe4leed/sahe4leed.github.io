@@ -15,19 +15,19 @@ header {
   justify-content: end;
   text-decoration: underline;
 }
-
-#mainpage {
+      
+div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-article {
-  justify-content: center;
 }
       
+h2,
+h4 {
+  text-position: center;
+}
       
-#mission {
+  
+  
+.mission {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -35,7 +35,7 @@ article {
   background-size: cover;
 }
   
-#tea {
+.tea {
   justify-content: center;
   flex: 1000px;
 }
@@ -53,15 +53,13 @@ article {
     <header>
       <span class="navigation"><a href="">Mission</a><a href="">Featured Tea</a><a href="">Locations</a></span>
     </header>
-    
-    <section id="mainpage">
       
-    <article id="mission">
+    <div class="mission">
       <h2>Mission</h2>
       <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-    </article>
+    </div>
     
-    <article id="tea">
+    <div class="tea">
       <h2>Tea of the Month</h2>
       <h4>What's Steeping at The Tea Cozy?</h4><br>
       <p class="teaphotos">
@@ -71,8 +69,8 @@ article {
       <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg" width="300" height="200">
       <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" width="300" height="200">
       </p>
-    </article>
-    </section> 
+    </div>
+   
   </body>
   
 </html>
